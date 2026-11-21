@@ -1,0 +1,27 @@
+{
+  "name": "unwritten-ui",
+  "version": "1.0.0",
+  "description": "UnWrittenUI - a modular, animated Roblox Luau UI library with module cards, tabs, sub-tabs, configs, themes and 20+ element types",
+  "license": "MIT",
+  "author": "AiVibeCoderMAX",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AiVibeCoderMAX/UnWritten-Ui-Library.git"
+  },
+  "keywords": [
+    "roblox",
+    "luau",
+    "ui-library",
+    "roblox-ui",
+    "script-hub"
+  ],
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build/bundle.mjs",
+    "icons": "node build/icons.mjs",
+    "check": "node build/check.mjs",
+    "harness": "node build/bundle.mjs && node build/harness.mjs",
+    "smoke": "node build/bundle.mjs && node build/smoke.mjs && luau build/_smoke.luau"
+  }
+}

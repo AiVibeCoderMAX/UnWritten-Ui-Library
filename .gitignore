@@ -1,0 +1,5 @@
+node_modules/
+*.log
+dist/Harness.lua
+build/_smoke.luau
+build/_harness_check.luau
